@@ -1,0 +1,49 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5000,
+    "debug": false,
+    "keep_stats": true
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "[%(asctime)s] %(levelname)s: %(message)s",
+    "file": {
+      "enabled": true,
+      "path": "./logs/app.log",
+      "max_size": "10MB",
+      "backup_count": 5
+    }
+  },
+  "cache": {
+    "enabled": true,
+    "type": "simple",
+    "default_timeout": 300,
+    "threshold": 500
+  },
+  "api": {
+    "version": "v1.2.0",
+    "rate_limit": {
+      "enabled": true,
+      "requests": 60,
+      "per_minutes": 1
+    }
+  },
+  "features": {
+    "emoji_enabled": true,
+    "quote_language": "zh",
+    "tips_enabled": true,
+    "mood_index": true
+  },
+  "greetings": {
+    "morning": ["早上好", "早安", "美好的早晨"],
+    "afternoon": ["下午好", "午安"],
+    "evening": ["晚上好", "晚安"],
+    "default": ["你好", "您好"]
+  },
+  "recommendations": {
+    "music": ["流行", "古典", "摇滚", "爵士"],
+    "sports": ["跑步", "游泳", "瑜伽", "篮球"],
+    "food": ["中餐", "西餐", "日料", "甜点"]
+  }
+}
