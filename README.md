@@ -7,12 +7,12 @@ OASB GreetAPI，一个基于Flask的智能问候服务平台API，专注于提�
 ### 方式一：直接下载
 从github下载ZIP压缩包：
 ```bash
-[https://github.com/oasb/greetapi/repository/archive/master.zip](https://github.com/oasbcn/OASBGreetAPI/archive/refs/heads/main.zip)
+https://github.com/oasbcn/OASBGreetAPI/archive/refs/heads/main.zip
 ```
 
 ### 方式二：使用Git克隆
 ```bash
-[git clone https://github.com/oasb/greetapi.git](https://github.com/oasbcn/OASBGreetAPI.git)
+git clone https://github.com/oasbcn/OASBGreetAPI.git
 ```
 
 ## 功能特性
@@ -392,12 +392,12 @@ export TIPS_ENABLED=true
 #### 方式一：直接下载
 从github下载ZIP压缩包：
 ```bash
-[https://github.com/oasb/greetapi/repository/archive/master.zip](https://github.com/oasbcn/OASBGreetAPI/archive/refs/heads/main.zip)
+https://github.com/oasbcn/OASBGreetAPI/archive/refs/heads/main.zip
 ```
 
 #### 方式二：使用Git克隆
 ```bash
-[git clone https://github.com/oasb/greetapi.git](https://github.com/oasbcn/OASBGreetAPI.git)
+git clone https://github.com/oasbcn/OASBGreetAPI.git
 ```
 
 ### 安装方式
