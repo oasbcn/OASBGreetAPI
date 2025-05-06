@@ -278,7 +278,7 @@ lsof -i :5000
 
 *服务启动界面展示*
 
-![API调用示例](docs/images/api-example.png)
+![API调用示例](docs/images/dy.png)
 
 *API调用效果展示*
 
