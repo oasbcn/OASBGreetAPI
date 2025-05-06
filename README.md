@@ -5,14 +5,14 @@ OASB GreetAPI，一个基于Flask的智能问候服务平台API，专注于提�
 ## 获取代码
 
 ### 方式一：直接下载
-从Gitee下载ZIP压缩包：
+从github下载ZIP压缩包：
 ```bash
-https://gitee.com/yeink/greetapi/repository/archive/master.zip
+https://github.com/oasb/greetapi/repository/archive/master.zip
 ```
 
 ### 方式二：使用Git克隆
 ```bash
-git clone https://gitee.com/yeink/greetapi.git
+git clone https://github.com/oasb/greetapi.git
 ```
 
 ## 功能特性
@@ -387,6 +387,19 @@ export TIPS_ENABLED=true
 
 ## 快速开始
 
+### 获取代码
+
+#### 方式一：直接下载
+从github下载ZIP压缩包：
+```bash
+https://github.com/oasb/greetapi/repository/archive/master.zip
+```
+
+#### 方式二：使用Git克隆
+```bash
+git clone https://github.com/oasb/greetapi.git
+```
+
 ### 安装方式
 
 #### 方式一：直接安装（简单方式）
@@ -682,39 +695,12 @@ GET /api/v1/status
 - 提供必要的环境信息
 - 附上相关的日志或截图
 
-## 开源许可
-
-本项目采用 MIT 许可证。查看 [LICENSE](LICENSE) 文件了解更多信息。
-
-```
-MIT License
-
-Copyright (c) 2024 OASB Team
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 ## 联系我们
 
 - 项目主页：https://github.com/oasb/greetapi
 - 问题反馈：https://github.com/oasb/greetapi/issues
-- 技术支持：support@oasb.cn
+- 技术支持：support@api.oasb.cn
 
 ### 服务启动
 
@@ -811,7 +797,7 @@ http://<服务器IP>:5000/api/greeting?name=小明
   "meta": {
     "api_version": "v1.2.0",
     "session_id": "a1b2c3d4",
-    "timestamp": "2023-11-15 14:30:22"
+    "timestamp": "2024-11-15 14:30:22"
   }
 }
 ```
