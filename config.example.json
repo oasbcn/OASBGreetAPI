@@ -1,0 +1,48 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5000,
+    "debug": false,
+    "keep_stats": true
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "[%(asctime)s] [%(levelname)s] %(message)s",
+    "file": {
+      "enabled": true,
+      "path": "logs/app.log",
+      "max_size": "10MB",
+      "backup_count": 5
+    }
+  },
+  "cache": {
+    "enabled": true,
+    "type": "simple",
+    "default_timeout": 300,
+    "threshold": 1000
+  },
+  "monitoring": {
+    "enabled": true,
+    "interval": 60,
+    "retention": 7,
+    "directory": "monitoring",
+    "thresholds": {
+      "cpu": 80,
+      "memory": 500,
+      "disk_read": 10,
+      "disk_write": 5
+    }
+  },
+  "security": {
+    "rate_limit": {
+      "enabled": true,
+      "requests_per_minute": 60
+    },
+    "headers": {
+      "xss_protection": true,
+      "frame_options": "DENY",
+      "content_type_options": true,
+      "hsts": "max-age=31536000"
+    }
+  }
+}
